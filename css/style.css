@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    border: 1px dotted red;
 }
 
 body {
@@ -8,12 +7,16 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-size: small;
+    background: rgb(29, 29, 88);
+    color: white;
 }
 
 header, footer {
     display: flex;
     align-items: center;
     height: 3.125rem;
+    background-color: rgb(0, 0, 0);
 }
 
 footer{
@@ -28,14 +31,15 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 article {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    height: 18.75rem;
-    width: 9.375rem;
+    height: auto;
+    width: 15rem;
     border-radius: 7px;
     border: 1px solid;
 }

@@ -24,11 +24,10 @@ function handleGetData(event) {
         $title.append(data.results[0].original_title);
         $release.append(data.results[0].release_date);
         $overview.append(data.results[0].overview);
-
-
+        
     }, function (error) {
 
         console.log(error);
     });
-    
+
 }
