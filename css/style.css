@@ -8,8 +8,10 @@ body {
     min-height: 100vh;
     margin: 0;
     font-size: small;
-    background: rgb(29, 29, 88);
-    color: white;
+    background-image: url(https://lh3.googleusercontent.com/nDLWqAxMdE3EEbVrx21DraM3M-T5b2dd5jnz2PMvzTa42WxZdKniKHS7TvSSxocal3Dyl1nZ5qGa5h6iX3tidZuxbAy9g636CEB_aeST9aUOmf-e1ydXhHncB8Z-mh1H_AchqtUHZnbfS8dx5vscGXV62rXLklkK8eD57IFEZRt2VXUOigjrp42pnqZE8tswz0TiPUYOfwgluVlnmMPKN85JbGTzxlwxOasNk0SQtjoojfTHwEbEyP4LEZD8Yehoea03LITQUpHxQzu4AYV53ND7SYf3OBq0hVyaY_e5yqeZT_q1r7NypakzXSQSHyjt7M1t3QUGei_SuaqCSKRHT5JmeZDMcAY03hs87edpwxURDWc1jBN30WBkEiCtXDCXAYCMPdalbVsSVbBiwD5Rw3V7pSeNZTWXOJAEpF5dnJLc6oavknpzO_PrgqIzYN2ORiTTr-HWs1toej5QIT-a1QsGEhyBpgWe_jw29DaLQgyfSt3H7rgmj6JATvpuwQ_llaKA8NOw0GfZ4nUnTk_d_yWE9jsNSUiwGTcL9L4MR9vf5ExaG9HL0YyqJ2-hT37uex3ylYqK-GzyVWNYdtB_aW-RoV7rEL9QWmydZq582tPYFFf2gjz8jZIOJb3zJtNfLAPP4OkjFF5pImzQnT1sjOZTZy0haktIaC0lvHSunrEbk0m1_TaH6G0YvaVga3E_B5PR8sZfiHPxPKb4ugfQ0Q=s400-no?authuser=1);
+    color: rgb(255, 255, 255);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    ;
 }
 
 header, footer {
@@ -17,6 +19,13 @@ header, footer {
     align-items: center;
     height: 3.125rem;
     background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header {
+    padding-top: 5px;
+    height: auto;
+    justify-content: space-around;
 }
 
 footer{
@@ -30,7 +39,6 @@ main {
     flex-grow: 1;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 
 }
 
@@ -41,5 +49,20 @@ article {
     height: auto;
     width: 15rem;
     border-radius: 7px;
-    border: 1px solid;
+}
+
+h2, #release {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+p {
+    display: flex;
+    margin: 5px;
+}
+
+#poster {
+    justify-content: center;
 }
