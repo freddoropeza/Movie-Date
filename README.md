@@ -11,7 +11,7 @@ A movie search web application that displays movie information from The Movie Da
 
 
 # Getting Started
-[CLick here](https://movie-date.vercel.app/) to check it out!
+[Click here](https://movie-date.vercel.app/) to check it out!
 
 # Future Enhancements
 - Show movie information on mouse hover
