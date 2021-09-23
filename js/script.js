@@ -32,7 +32,7 @@ function handleGetData(event) {
 
 function render() { 
     const html = movieData.results.map(function(movies) {
-        $( "article" ).remove();
+        $('#front').remove();
         return `<article>
                     <p id='poster'><img src=${imagePath}${movies.poster_path}></p>
                     <h2>${movies.original_title}</h2>
