@@ -10,7 +10,7 @@ A movie search web application that displays movie information from The Movie Da
 # Screenshots
 ## Desktop 
 
-![Screenshot from 2021-09-23 17-11-36](https://user-images.githubusercontent.com/90218534/134585289-d2b14b35-b6ed-41f3-9c77-d252df3a4335.png)
+![Screenshot from 2021-09-23 17-11-36](https://user-images.githubusercontent.com/90218534/134586196-418b02ff-0ad3-42d2-9fc5-326c8e01e9f4.png)
 
 ## Mobile
 
