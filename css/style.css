@@ -45,7 +45,7 @@ main {
 
 #front {
     position: absolute;
-    bottom: 0;
+    bottom: 46px;
 }
 
 article {
