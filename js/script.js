@@ -1,10 +1,6 @@
 const BASE_URL = 'https://api.themoviedb.org/';
 const API_KEY = '764e2ea637804a00e1ba9208485386e5';
 const imagePath = 'https://image.tmdb.org/t/p/w200';
-// let movieDate;
-// let movieData;
-// let posterPath;
-// let html = [];
 
 // Cached Elemnts Refernces
 const $main = $('main');
@@ -42,4 +38,3 @@ function render() {
     });
     $main.html(html);
 }
-

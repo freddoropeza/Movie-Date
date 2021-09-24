@@ -44,9 +44,8 @@ main {
 }
 
 #front {
-    display: flex;
-    justify-content: center;
-    width: -webkit-fill-available;
+    position: absolute;
+    bottom: 0;
 }
 
 article {
@@ -63,7 +62,6 @@ h2, #release {
     justify-content: center;
 
 }
-
 
 p {
     display: flex;
